@@ -39,3 +39,47 @@ input {
 .quantity {
   margin: 0 5px;
 }
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  margin-left: 600px;
+  width: 350px;
+}
+.delete {
+background-color: #c72828;
+color: white;
+border-radius: 5px;
+height: 30px;
+text-align: center;
+font-size: 0.8em;
+}
+#calc-prices-button {
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  text-align:center;
+  font-size: 0.8em;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+#wholecart2 {
+  margin-left: 55px;
+}
+#test {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
